@@ -13,14 +13,17 @@ a{
     justify-content: center;
 }
 .google{
-    height: 300px;
-    width: 400px;
+    height: 170px;
+    width: 350px;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    font-size: 200px;
 }
 .search-bar{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -3rem;
+    margin-top: 0.5rem;
     
 }
 .search-container{
@@ -29,7 +32,7 @@ a{
     justify-content: center;
     height: 2.5rem;
     width: 450px;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 50px;
     padding: 0 1rem;
 }
@@ -37,6 +40,8 @@ input{
   flex: 1;
   outline: none;
   border: none;
+  width: 100%;
+  padding: 0.5rem;
 }
 .navbar{
     display: flex;
@@ -51,7 +56,7 @@ input{
 }
 footer{
     position: absolute;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 50px;
     bottom: 15px;
     right: 15px;
